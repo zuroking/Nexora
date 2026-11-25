@@ -1,0 +1,176 @@
+﻿[package]
+name = "nexora-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4"
+thiserror = "2.0"
+
+[dev-dependencies]
+tempfile = "3"
+
+[[test]]
+name = "m1"
+path = "tests/storage/m1.rs"
+
+[[test]]
+name = "diff"
+path = "tests/storage/diff.rs"
+
+[[test]]
+name = "frontmatter"
+path = "tests/storage/frontmatter.rs"
+
+[[test]]
+name = "watch"
+path = "tests/storage/watch.rs"
+
+[[test]]
+name = "composer"
+path = "tests/notes/composer.rs"
+
+[[test]]
+name = "daily"
+path = "tests/notes/daily.rs"
+
+[[test]]
+name = "lists"
+path = "tests/notes/lists.rs"
+
+[[test]]
+name = "quotes"
+path = "tests/notes/quotes.rs"
+
+[[test]]
+name = "rename"
+path = "tests/notes/rename.rs"
+
+[[test]]
+name = "review"
+path = "tests/notes/review.rs"
+
+[[test]]
+name = "status"
+path = "tests/notes/status.rs"
+
+[[test]]
+name = "tables"
+path = "tests/notes/tables.rs"
+
+[[test]]
+name = "templates"
+path = "tests/notes/templates.rs"
+
+[[test]]
+name = "anchors"
+path = "tests/links/anchors.rs"
+
+[[test]]
+name = "display"
+path = "tests/links/display.rs"
+
+[[test]]
+name = "embed"
+path = "tests/links/embed.rs"
+
+[[test]]
+name = "graph"
+path = "tests/links/graph.rs"
+
+[[test]]
+name = "images"
+path = "tests/links/images.rs"
+
+[[test]]
+name = "mentions"
+path = "tests/links/mentions.rs"
+
+[[test]]
+name = "m3"
+path = "tests/links/m3.rs"
+
+[[test]]
+name = "nested"
+path = "tests/links/nested.rs"
+
+[[test]]
+name = "outgoing"
+path = "tests/links/outgoing.rs"
+
+[[test]]
+name = "preview"
+path = "tests/links/preview.rs"
+
+[[test]]
+name = "related"
+path = "tests/links/related.rs"
+
+[[test]]
+name = "fuzzy"
+path = "tests/retrieval/fuzzy.rs"
+
+[[test]]
+name = "health"
+path = "tests/retrieval/health.rs"
+
+[[test]]
+name = "m2"
+path = "tests/retrieval/m2.rs"
+
+[[test]]
+name = "query"
+path = "tests/retrieval/query.rs"
+
+[[test]]
+name = "semantic"
+path = "tests/retrieval/semantic.rs"
+
+[[test]]
+name = "autocomplete"
+path = "tests/views/autocomplete.rs"
+
+[[test]]
+name = "bases"
+path = "tests/views/bases.rs"
+
+[[test]]
+name = "bookmarks"
+path = "tests/views/bookmarks.rs"
+
+[[test]]
+name = "canvas"
+path = "tests/views/canvas.rs"
+
+[[test]]
+name = "commands"
+path = "tests/views/commands.rs"
+
+[[test]]
+name = "named_bases"
+path = "tests/views/named_bases.rs"
+
+[[test]]
+name = "outline"
+path = "tests/views/outline.rs"
+
+[[test]]
+name = "saved_queries"
+path = "tests/views/saved_queries.rs"
+
+[[test]]
+name = "tabs"
+path = "tests/views/tabs.rs"
+
+[[test]]
+name = "theme"
+path = "tests/views/theme.rs"
+
+[[test]]
+name = "tree"
+path = "tests/views/tree.rs"
+
+[[test]]
+name = "workspace"
+path = "tests/views/workspace.rs"
+

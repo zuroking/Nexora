@@ -1,0 +1,12 @@
+pub mod commands;
+pub mod tree;
+pub mod outline;
+pub mod autocomplete;
+pub mod bases;
+pub mod canvas;
+pub mod bookmarks;
+pub mod theme;
+pub mod saved_queries;
+pub mod workspace;
+pub mod tabs;
+pub mod named_bases;

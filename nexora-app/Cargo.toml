@@ -1,0 +1,16 @@
+[package]
+name = "nexora-app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nexora-core = { path = "../nexora-core" }
+egui_commonmark = { version = "0.26", default-features = false }
+eframe = { version = "0.37", default-features = false, features = [
+    "glow",
+    "default_fonts",
+    "clipboard",
+    "accesskit",
+    "links",
+    "inspection",
+] }

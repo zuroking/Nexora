@@ -1,0 +1,3 @@
+[workspace]
+members = ["nexora-core", "nexora-app", "nexora-cli"]
+resolver = "2"
