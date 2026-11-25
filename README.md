@@ -1,5 +1,7 @@
 # Nexora
 
+Published at <https://github.com/zuroking/Nexora> under the MIT license.
+
 A local-first, open-source notes app in Rust. Notes are plain Markdown files on
 disk; Nexora adds a fast desktop interface, links, tags, search, and a graph —
 without a server, an account, or a cloud.

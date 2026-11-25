@@ -3,8 +3,8 @@
 Status as of 2026-11-25. `[x]` means: architecture amendment locked before
 code, implemented, raw `cargo test` pasted, GUI smoke described, code review
 run, findings fixed, and docs updated. `[ ]` means planned or deferred.
-Current test count: **279 passing** (measured from raw `cargo test --workspace`, 2026-11-25). Preparing the first public release under MIT (`LICENSE`); git init is the
-final step.
+Current test count: **279 passing** (measured from raw `cargo test --workspace`,
+2026-11-25). Published under MIT at `https://github.com/zuroking/Nexora`.
 
 ## Foundation
 
